@@ -1,1 +1,4 @@
 # hodorHoldDoors
+
+When Hodor was a teenager, he became interested in door strengths. He knew how strong he was and was always trying to figure out how long he could keep a door closed with an horde of zombies behind it trying to pass through. By his calculations, he was able to hold "hodorStrength" zombies. Given a "doorsStrength" array with N doors and the amount of zombies each door can hold by itself and a "zombieInflux" array with the number of zombies arriving at each door per second, return the door that Hodor can hold the longest before being crushed. You are guaranteed that both arrays have the same length. For example, for an input where hodorStrength=50, doorsStrength={10,25,5} and zombiesInflux={2,3,1}, door[0] would be held for 30 seconds, door[1] would be held for 25 seconds and door[2] would be held for 55 seconds. So the answer in this case is "2". *
+Method signature: int holdTheDoor(int hodorStrength, int[] doorsStrength, int[] zombiesInflux)
